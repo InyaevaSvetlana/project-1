@@ -459,8 +459,7 @@ textarea[placeholder] {
 }
 
 .footer-contacts-list {
-    margin: 0 0 15px 20px;
-    padding: 0 0 0 30px;
+    margin: 0 0 15px 30px;
     position: relative;
     font-size: 16px;
     line-height: 24px;
@@ -472,47 +471,47 @@ textarea[placeholder] {
     margin: 0 0 15px 0;
 }
 
-.footer-contacts-link::before {
-    content: "";
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: 1px;
-    left: -5px;
-    background-position: center;
-    background-repeat: no-repeat;
+.footer-contacts-link-icon {
+    margin: 0 0 -15px 0;
+}
+
+.footer-contacts-link-icon:hover {
+    transform: scale(1.5);
 }
 
 a {
     color: #fff;
 }
 
-.link1::before {
-    background-image: url(../img/skype_icon.png);
-}
-
-.link2::before {
-    background-image: url(../img/icq_icon.png);
-    top: 37px;
-}
-
-.link3::before {
-    background-image: url(../img/email_icon.png);
-    top: 78px;
-}
-
-.link4::before {
-    background-image: url(../img/phone_icon.png);
-    top: 113px;
-}
-
 .footer-contacts-icons {
     width: 240px;
-    height: 45px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 35px;
+}
+
+.footer-contacts-icon {
+    height: 42px;
+    width: 45px;
+    display: block;
     background-image: url(../img/social_buttons.png);
+}
+
+.icon2 {
+    background-position: -48px 0px;
+}
+
+.icon3 {
+    background-position: -98px 0px;
+}
+
+.icon4 {
+    background-position: -149px 0px;
+}
+
+.icon5 {
+    background-position: -198px 0px;
     background-repeat: no-repeat;
-    margin: 30px 0 0 -30px;
 }
 
 .footer-copyright {
