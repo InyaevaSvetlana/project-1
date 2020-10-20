@@ -498,12 +498,18 @@ a {
     background-image: url(../img/social_buttons.png);
 }
 
-.footer-contacts-link-href:hover {
+.footer-contacts-link-href:hover,
+.footer-contacts-link-href:focus {
     color: #b8b4b4;
     transform: scale(1.2);
 }
 
-.footer-contacts-icon:hover {
+.footer-contacts-link-href:active {
+    color: black;
+}
+
+.footer-contacts-icon:hover,
+.footer-contacts-icon:focus {
     transform: scale(1.3);
 }
 
