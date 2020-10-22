@@ -480,6 +480,11 @@ textarea[placeholder] {
     transform: scale(1.5);
 }
 
+.footer-contacts-link-icon:focus,
+.footer-contacts-link-icon:active {
+    transform: scale(1.5);
+}
+
 a {
     color: #fff;
 }
